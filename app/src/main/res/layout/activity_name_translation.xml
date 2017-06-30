@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This file is part of Namae.
+
+    Namae is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Namae is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Namae.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!--
+    Developed by: Insperion
+    Team: EDS Insperion
+    Developer(s): Sergio Ernesto Tostado Sánchez (sets@insperion.com.mx)
+    Contact: contacto@insperion.com.mx
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_main_w_sun"
+    tools:context="com.insperion.sets.namae.view.NameTranslationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/ll_complete_name">
+
+                    <TextView
+                        android:id="@+id/tv_reference"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ntr_your_name"
+                        android:textSize="18sp"
+                        android:textColor="@color/secondary_text"
+                        android:padding="5sp"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:layout_margin="@dimen/fab_margins"
+                            app:fabSize="normal"
+                            app:backgroundTint="@color/colorPrimaryDark"
+                            app:srcCompat="@drawable/ic_volume_up_black_24dp"
+                            android:id="@+id/fab_speak_complete_name" />
+
+                        <TextView
+                            android:text="@string/ntr_speak_complete_name"
+                            style="@style/textview_primary_wgravity_style"
+                            android:layout_gravity="left|center_vertical"
+                            android:textSize="16sp"
+                            android:id="@+id/txt_speak_complete_name" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ntr_greetings"
+                        android:textSize="18sp"
+                        android:textColor="@color/secondary_text"
+                        android:padding="5sp"
+                        android:gravity="center"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:layout_margin="@dimen/fab_margins"
+                            app:fabSize="normal"
+                            app:backgroundTint="@color/colorPrimaryDark"
+                            app:srcCompat="@drawable/ic_volume_up_black_24dp"
+                            android:id="@+id/fab_greeting_1" />
+
+                        <TextView
+                            android:text="@string/ntr_greeting_1"
+                            style="@style/textview_primary_wgravity_style"
+                            android:layout_gravity="left|center_vertical"
+                            android:textSize="16sp"
+                            android:id="@+id/txt_greeting_1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:layout_margin="@dimen/fab_margins"
+                            app:fabSize="normal"
+                            app:backgroundTint="@color/colorPrimaryDark"
+                            app:srcCompat="@drawable/ic_volume_up_black_24dp"
+                            android:id="@+id/fab_greeting_2" />
+
+                        <TextView
+                            android:text="@string/ntr_greeting_2"
+                            style="@style/textview_primary_wgravity_style"
+                            android:layout_gravity="left|center_vertical"
+                            android:textSize="16sp"
+                            android:id="@+id/txt_greeting_2" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:layout_margin="@dimen/fab_margins"
+                            app:fabSize="normal"
+                            app:backgroundTint="@color/colorPrimaryDark"
+                            app:srcCompat="@drawable/ic_volume_up_black_24dp"
+                            android:id="@+id/fab_greeting_3" />
+
+                        <TextView
+                            android:text="@string/ntr_greeting_3"
+                            style="@style/textview_primary_wgravity_style"
+                            android:layout_gravity="left|center_vertical"
+                            android:textSize="16sp"
+                            android:id="@+id/txt_greeting_3" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

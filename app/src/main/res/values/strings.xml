@@ -1,0 +1,63 @@
+<!--
+    This file is part of Namae.
+
+    Namae is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Namae is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Namae.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!--
+    Developed by: Insperion
+    Team: EDS Insperion
+    Developer(s): Sergio Ernesto Tostado Sánchez (sets@insperion.com.mx)
+    Contact: contacto@insperion.com.mx
+-->
+<resources>
+    <string name="app_name">Namae</string>
+    <string name="main_main_tooltip">Ingresa un nombre para la traducción</string>
+    <string name="main_btn_translate">¡Traducir!</string>
+    <string name="main_welcome">Bienvenido a Namae</string>
+    <string name="main_txt_main_hint">Nombre a traducir</string>
+    <string name="pd_translating">Traduciendo ...</string>
+    <string name="main_no_name">¡Vamos! Ingresa al menos un nombre</string>
+    <string name="ntr_speak_complete_name">¡Escucha como se pronuncia!</string>
+    <string name="ntr_greeting_1">Mi nombre es namae</string>
+    <string name="ntr_greeting_2">Hola, soy namae, mucho gusto en conocerlos</string>
+    <string name="ntr_greeting_3">Soy namae, sé un poco de japonés</string>
+    <string name="ntr_greetings">Saludos</string>
+    <string name="ntr_your_name">Tu nombre en japonés sería:</string>
+    <string name="ntr_share">Compartir</string>
+    <string name="ntr_wkm">Quiero saber más</string>
+    <string name="ntr_about">Acerca de Namae</string>
+    <string name="ntr_ups">¡Ups!</string>
+    <string name="ntr_audio_not_available">Para los audios, se requiere que estés conectado a internet</string>
+    <string name="ntr_sharing_not_available">Para compartir, se requiere que estés conectado a internet</string>
+    <string name="main_wii">¿Qué es Namae?</string>
+    <string name="main_wii_content">Namae es una app traductora de nombres propios del Español al Japonés, basado en el katakana, el silabario de los términos extranjeros. ¡Pruébala! y obtendrás más información. Esperamos que te agrade Namae.</string>
+    <string name="wkm_title">Tu nombre en Japonés</string>
+    <string name="wkm_content1">Namae es un app traductora de nombres propios del Español al Japonés, idioma que se distingue por su hermosa escritura. El Japonés usa 3 sistemas de escritura, para diferentes necesidades:</string>
+    <string name="wkm_content11">> Kanji: Ideogramas para representar conceptos</string>
+    <string name="wkm_content12">> Hiragana: Para el japonés propio (sin términos extranjeros)</string>
+    <string name="wkm_content13">> Katakana: Para los términos extranjeros</string>
+    <string name="wkm_content2">Como los nombres en Español vienen a ser un término extranjero, Namae usa el Katakana para la traducción. No hay regla oficial escrita para la traducción de nombres propios en Japonés, sólo una guía: Que se intente imitar exacta o similarmente el sonido del idioma del cual proviene el término. Es muy importante que Namae sólo genera una traducción de acuerdo a sus reglas, y que existen nombres con más de una traducción completamente válida.</string>
+    <string name="wkm_content3">Algunas sílabas no tiene un equivalente en Japonés, por lo que puede sonarte extraño en cuanto lo escuchas o lees, por ejemplo:</string>
+    <string name="wkm_content31">> \'ju\' (como Juan) no existe en Japonés, en su lugar se usa \'fu\' (フ)</string>
+    <string name="wkm_content32">> \'si\' o \'ci\' (como Lucía), en su lugar se usa \'shi\' (シ)</string>
+    <string name="wkm_content4">¿Quieres saber más del japonés? te recomendamos estos canales de YouTube:</string>
+    <string name="wkm_content41">Para aprender a escribir el katakana</string>
+    <string name="wkm_content42">Para aprender lo básico del japonés</string>
+    <string name="about_title">Acerca de Namae</string>
+    <string name="about_namae">Namae v1.0</string>
+    <string name="about_create_by">Fue creado por:</string>
+    <string name="about_insperion_website">Nuestro sitio web</string>
+    <string name="about_license">Licencia</string>
+</resources>

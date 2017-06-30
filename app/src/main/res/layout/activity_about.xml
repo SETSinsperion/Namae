@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This file is part of Namae.
+
+    Namae is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Namae is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Namae.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!--
+    Developed by: Insperion
+    Team: EDS Insperion
+    Developer(s): Sergio Ernesto Tostado Sánchez (sets@insperion.com.mx)
+    Contact: contacto@insperion.com.mx
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_main_w_sun"
+    tools:context="com.insperion.sets.namae.view.AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_namae_about" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/primary_text"
+                android:textSize="30sp"
+                android:text="@string/about_namae"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:text="@string/about_create_by"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_insperion_2" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_margin="@dimen/fab_margins"
+                    app:fabSize="normal"
+                    app:backgroundTint="@color/colorPrimaryDark"
+                    app:srcCompat="@drawable/ic_language_black_24dp"
+                    android:id="@+id/fab_about_website" />
+
+                <TextView
+                    android:text="@string/about_insperion_website"
+                    style="@style/textview_primary_wgravity_style"
+                    android:layout_gravity="left|center_vertical"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_margin="@dimen/fab_margins"
+                    app:fabSize="normal"
+                    app:backgroundTint="@color/colorPrimaryDark"
+                    app:srcCompat="@drawable/ic_class_black_24dp"
+                    android:id="@+id/fab_about_license" />
+
+                <TextView
+                    android:text="@string/about_license"
+                    style="@style/textview_primary_wgravity_style"
+                    android:layout_gravity="left|center_vertical"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

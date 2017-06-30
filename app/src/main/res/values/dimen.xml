@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This file is part of Namae.
+
+    Namae is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Namae is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Namae.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!--
+    Developed by: Insperion
+    Team: EDS Insperion
+    Developer(s): Sergio Ernesto Tostado Sánchez (sets@insperion.com.mx)
+    Contact: contacto@insperion.com.mx
+-->
+<resources>
+    <dimen name="material_bounds">16dp</dimen>
+    <dimen name="fab_margins">16dp</dimen>
+</resources>

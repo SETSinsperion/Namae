@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This file is part of Namae.
+
+    Namae is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Namae is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Namae.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+
+<!--
+    Developed by: Insperion
+    Team: EDS Insperion
+    Developer(s): Sergio Ernesto Tostado Sánchez (sets@insperion.com.mx)
+    Contact: contacto@insperion.com.mx
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.insperion.sets.namae">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.MainActivity" />
+        <activity android:name=".view.NameTranslationActivity" />
+        <activity
+            android:name=".view.WantToKnowMoreActivity"
+            android:label="@string/wkm_title" />
+        <activity
+            android:name=".view.AboutActivity"
+            android:label="@string/about_title"/>
+    </application>
+
+</manifest>
