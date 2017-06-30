@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This file is part of Namae.
+
+    Namae is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Namae is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Namae.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!--
+    Developed by: Insperion
+    Team: EDS Insperion
+    Developer(s): Sergio Ernesto Tostado Sánchez (sets@insperion.com.mx)
+    Contact: contacto@insperion.com.mx
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_main"
+    tools:context="com.insperion.sets.namae.view.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txt_center_primary_style"
+            android:text="@string/main_welcome"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:padding="20dp"/>
+
+        <android.support.v7.widget.AppCompatEditText
+            style="@style/edittext_style"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_height="50dp"
+            android:textSize="16sp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:inputType="text"
+            android:hint="@string/main_txt_main_hint"
+            android:id="@+id/txt_complete_name"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/icons"
+            android:background="@drawable/btn_ripple"
+            android:textStyle="bold"
+            android:text="@string/main_btn_translate"
+            android:textSize="16sp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_translate"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
